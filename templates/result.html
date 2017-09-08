@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Results</title>
+    </head>
+    <body>
+        <div>
+            <h2>RESULT</h2>
+        </div>
+        <table>
+            {%for title in titles%}
+            <th>{{title}}</th>
+            {%endfor%}
+            {%for line in to_the_table%}
+            <tr>
+                {%for key in line%}          
+                <td>{{line[key]}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+        <table>
+    </body>
+</html>
