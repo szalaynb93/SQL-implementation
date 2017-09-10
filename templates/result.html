@@ -11,12 +11,12 @@
             {%for title in titles%}
             <th>{{title}}</th>
             {%endfor%}
-            {%for line in to_the_table%}
-            <tr>
-                {%for key in line%}          
-                <td>{{line[key]}}</td>
-                {%endfor%}
-            </tr>
+            {%for row in to_the_table%}
+                <tr>
+                    {%for key in actual_keys%}
+                        <td>{{row[key]}}</td>
+                    {%endfor%}
+                </tr>
             {%endfor%}
         <table>
     </body>
