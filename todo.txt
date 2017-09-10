@@ -1,6 +1,0 @@
-1. 6. query-hez extra funkció
-2. oszlopnevek megadása server.py-ban
-3. oszlopok feltöltése oszlopnév alapján
-4. táblázat kinézete
-5. declutter
-
